@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+header{
+	height:340px;
+}
+footer{
+	height:15vh;
+	border-top : 1px solid black;
+}
+.loginArea{
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+.container{
+	width: 100%;
+ 	height: 340px;
+}
+.container img {
+	width:100%;
+	height:340px;
+}
+body img{
+	max-width:100%;
+	height:50vh;
+	}
+.img01, .img02{
+	display : inline-block;
+	}
+@media screen and (max-width: 640px) {
+    .img01 {
+        height: 0;
+        padding-top: 69.531%;
+        background: url(../image/vestria2.jpg) no-repeat center;
+        background-size: contain;
+    }
+    .img01 img {
+        display: none;
+    }
+}
+@media screen and (max-width: 640px) {
+    .img02 {
+        height: 0;
+        padding-top: 69.531%;
+        background: url(../image/vestria.jpg) no-repeat center;
+        background-size: contain;
+    }
+    .img02 img {
+        display: none;
+    }
+}
+table th{
+	text-align:center;
+	}
+.birth div{
+		display : inline-block;
+	}
+	h3{
+		margin-left:20px;
+	}
+	#id, #pwd1, #pwd2, #name, #yy, #mm, #dd, #gender, #phoneNo{
+	    display: block;
+	    position: relative;
+	    width: 100%;
+	    height: 50px;
+	    border: 1px solid black;
+	    padding: 10px 110px 10px 14px;
+	    box-sizing: border-box;
+	    margin-left : 2px;
+	}
